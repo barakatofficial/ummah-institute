@@ -77,21 +77,19 @@ const Hero: React.FC = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.1, duration: 0.8 }}
-            className="pt-12 flex flex-wrap items-center justify-center gap-8 text-gray-500"
+            className="pt-12 grid grid-cols-3 gap-4 sm:gap-8 items-center justify-center text-gray-500 max-w-2xl mx-auto"
           >
-            <div className="text-center">
-              <div className="text-3xl font-bold text-gray-900">90%</div>
-              <div className="text-sm mt-1">Grade Improvement</div>
+            <div className="text-center px-2">
+              <div className="text-2xl sm:text-3xl font-bold text-gray-900">90%</div>
+              <div className="text-xs sm:text-sm mt-1">Grade Improvement</div>
             </div>
-            <div className="hidden sm:block h-8 w-px bg-gray-200"></div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-gray-900">500+</div>
-              <div className="text-sm mt-1">Students Helped</div>
+            <div className="text-center px-2">
+              <div className="text-2xl sm:text-3xl font-bold text-gray-900">500+</div>
+              <div className="text-xs sm:text-sm mt-1">Students Helped</div>
             </div>
-            <div className="hidden sm:block h-8 w-px bg-gray-200"></div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-gray-900">100%</div>
-              <div className="text-sm mt-1">Satisfaction</div>
+            <div className="text-center px-2">
+              <div className="text-2xl sm:text-3xl font-bold text-gray-900">100%</div>
+              <div className="text-xs sm:text-sm mt-1">Satisfaction</div>
             </div>
           </motion.div>
         </motion.div>

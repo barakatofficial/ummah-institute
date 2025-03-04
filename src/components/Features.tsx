@@ -122,11 +122,11 @@ const Features: React.FC = () => {
 
         {/* Subject Tabs */}
         <div className="mt-12">
-          <div className="flex flex-wrap justify-center gap-2 mb-8">
+          <div className="flex flex-wrap justify-center gap-2 px-2 sm:px-4 mb-8">
             {subjects.map((subject, index) => (
               <motion.button
                 key={index}
-                className={`px-6 py-3 rounded-full font-medium transition-all ${
+                className={`px-4 sm:px-6 py-2 sm:py-3 rounded-full font-medium text-sm sm:text-base transition-all ${
                   activeTab === index 
                     ? 'bg-teal-700 text-white shadow-lg' 
                     : 'bg-white text-gray-700 hover:bg-gray-100'
@@ -141,7 +141,7 @@ const Features: React.FC = () => {
               >
                 {subject.title}
                 {!subject.available && (
-                  <span className="ml-2 text-xs bg-yellow-500 text-white px-2 py-0.5 rounded-full">
+                  <span className="ml-1 sm:ml-2 text-xs bg-yellow-500 text-white px-1.5 sm:px-2 py-0.5 rounded-full">
                     Soon
                   </span>
                 )}
@@ -150,7 +150,7 @@ const Features: React.FC = () => {
           </div>
 
           {/* Subject Content */}
-          <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-4 sm:gap-8 items-start px-2 sm:px-0">
             <motion.div 
               className="lg:col-span-2"
               initial={{ opacity: 0, x: -30 }}
@@ -159,7 +159,7 @@ const Features: React.FC = () => {
               transition={{ duration: 0.5 }}
               key={`content-${activeTab}`}
             >
-              <div className={`p-6 rounded-lg shadow-lg ${subjects[activeTab].available ? 'bg-white' : 'bg-white/80'}`}>
+              <div className={`p-4 sm:p-6 rounded-lg shadow-lg ${subjects[activeTab].available ? 'bg-white' : 'bg-white/80'}`}>
                 <div className={`w-12 h-12 rounded-full ${subjects[activeTab].color} flex items-center justify-center mb-4`}>
                   {subjects[activeTab].icon}
                 </div>
