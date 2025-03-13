@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
             transition={{ delay: 0.7, duration: 0.8 }}
             className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed"
           >
-            Join our specialized Mathematics and Chemistry programs designed to help you achieve excellence in your GCSE examinations.
+            Join our specialized Mathematics and Chemistry programs designed to help you achieve top grades.
           </motion.p>
 
           <motion.div
@@ -84,7 +84,7 @@ const Hero: React.FC = () => {
               <div className="text-sm mt-1">Grade Improvement</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-gray-900">500+</div>
+              <div className="text-3xl font-bold text-gray-900">50+</div>
               <div className="text-sm mt-1">Students Helped</div>
             </div>
             <div className="text-center">

@@ -105,7 +105,7 @@ const Features: React.FC = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            Our GCSE Accelerator Program
+            Our GCSE Crash Course
           </motion.h2>
           <div className="w-20 h-1 bg-teal-700 mx-auto my-4"></div>
           <motion.p 
@@ -115,7 +115,7 @@ const Features: React.FC = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            A comprehensive 6-week program designed to boost your GCSE performance through 
+            A comprehensive 6-week program designed to top grades through 
             structured learning, expert guidance, and focused practice.
           </motion.p>
         </div>
