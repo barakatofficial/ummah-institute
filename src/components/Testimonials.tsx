@@ -86,7 +86,7 @@ const Testimonials: React.FC = () => {
                 <span className="text-teal-700 font-bold">YQ</span>
               </div>
               <div className="ml-3">
-                <h4 className="font-semibold text-gray-900">Yusuf Q.</h4>
+                <h4 className="font-semibold text-gray-900">Elijah S.</h4>
                 <p className="text-sm text-gray-600">GCSE Student, 2023</p>
               </div>
             </div>
@@ -108,7 +108,7 @@ const Testimonials: React.FC = () => {
               <Star fill="currentColor" size={20} />
             </div>
             <p className="text-gray-700 italic">
-              "The Chemistry program helped me understand reactions and equations in a way my school never could. The practical applications and visual aids made complex topics much clearer."
+              "The Chemistry program helped me understand reactions and equations in a way my school never could. I was able to improve from a grade 5 to 7."
             </p>
             <div className="mt-6 flex items-center">
               <div className="w-10 h-10 bg-teal-200 rounded-full flex items-center justify-center">
@@ -137,7 +137,7 @@ const Testimonials: React.FC = () => {
               <Star fill="currentColor" size={20} />
             </div>
             <p className="text-gray-700 italic">
-              "The exam techniques they taught were game-changers. I learned how to approach different question types and manage my time effectively during exams. My confidence improved tremendously."
+              "The exam techniques they taught were game changers. I learned how to approach grade 9 questions and manage my time more effectively during exams. I was able to improve in maths from 7 to a 9."
             </p>
             <div className="mt-6 flex items-center">
               <div className="w-10 h-10 bg-teal-200 rounded-full flex items-center justify-center">
@@ -161,7 +161,7 @@ const Testimonials: React.FC = () => {
         >
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-2/3 md:pr-8">
-              <h3 className="text-2xl font-bold text-gray-900">Parent Testimonial</h3>
+              <h3 className="text-2xl font-bold text-gray-900">What Parents Think..</h3>
               <p className="text-gray-700 mt-4 italic leading-relaxed">
                 "As a parent, I was concerned about my son's GCSE preparation, especially in Mathematics. 
                 The Ummah Institute program provided structured learning that complemented his school work. 

@@ -65,7 +65,7 @@ const Contact: React.FC = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Ready to accelerate your GCSE success? Get in touch with us today to learn more 
+            Ready to elevate your GCSE success? Get in touch with us today to learn more 
             about our program or to enroll.
           </motion.p>
         </div>
@@ -81,7 +81,7 @@ const Contact: React.FC = () => {
             <div className="md:col-span-2 bg-teal-700 p-8 text-white">
               <h3 className="text-2xl font-bold">Get In Touch</h3>
               <p className="mt-4">
-                We're here to answer any questions you may have about our GCSE Accelerator Program. 
+                We're here to answer any questions you may have about our GCSE Crash Course. 
                 Fill out the form or contact us directly using the information below.
               </p>
               
@@ -108,16 +108,7 @@ const Contact: React.FC = () => {
                   </div>
                 </motion.div>
                 
-                <motion.div 
-                  className="flex items-start"
-                  whileHover={{ x: 5, transition: { duration: 0.2 } }}
-                >
-                  <MapPin className="mr-4 flex-shrink-0" size={24} />
-                  <div>
-                    <h4 className="font-semibold">Location</h4>
-                    <p className="mt-1">123 Education Street, London, UK</p>
-                  </div>
-                </motion.div>
+                
               </div>
               
               <div className="mt-12">
@@ -266,11 +257,7 @@ const Contact: React.FC = () => {
             <div className="space-y-4">
               <div>
                 <h4 className="font-medium text-gray-900">When do classes take place?</h4>
-                <p className="text-gray-600 mt-1">Classes are held on weekends to accommodate school schedules.</p>
-              </div>
-              <div>
-                <h4 className="font-medium text-gray-900">How many students are in each class?</h4>
-                <p className="text-gray-600 mt-1">We maintain small group sizes with a maximum of 10 students per class.</p>
+                <p className="text-gray-600 mt-1">Classes are held on sunday 9am to 1pm and Saturday 11am to 3pm to accommodate school schedules.</p>
               </div>
               <div>
                 <h4 className="font-medium text-gray-900">Do you offer payment plans?</h4>

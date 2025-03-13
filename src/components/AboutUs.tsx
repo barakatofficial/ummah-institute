@@ -135,11 +135,11 @@ const AboutUs: React.FC = () => {
             <h4 className="text-xl font-semibold mb-4">Program Features</h4>
             <div className="grid grid-cols-2 gap-4">
               <div>
-                <div className="text-3xl font-bold text-teal-400">4+</div>
+                <div className="text-3xl font-bold text-teal-400">24+</div>
                 <p className="text-gray-300 mt-2">Live Teaching Hours</p>
               </div>
               <div>
-                <div className="text-3xl font-bold text-teal-400">100+</div>
+                <div className="text-3xl font-bold text-teal-400">150+</div>
                 <p className="text-gray-300 mt-2">Practice Questions</p>
               </div>
             </div>

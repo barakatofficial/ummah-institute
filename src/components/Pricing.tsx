@@ -71,7 +71,7 @@ const Pricing: React.FC = () => {
                 </li>
                 <li className="flex items-start">
                   <Check className="text-teal-700 mr-2 flex-shrink-0 mt-1" size={18} />
-                  <span className="text-gray-700">Regular progress assessments</span>
+                  <span className="text-gray-700">Mock Exams</span>
                 </li>
               </ul>
               <motion.button 
@@ -119,7 +119,7 @@ const Pricing: React.FC = () => {
                 </li>
                 <li className="flex items-start">
                   <Check className="text-teal-700 mr-2 flex-shrink-0 mt-1" size={18} />
-                  <span className="text-gray-700">Regular progress assessments</span>
+                  <span className="text-gray-700">Mock Exams</span>
                 </li>
               </ul>
               <motion.button 
@@ -171,11 +171,11 @@ const Pricing: React.FC = () => {
                 </li>
                 <li className="flex items-start">
                   <Check className="text-teal-700 mr-2 flex-shrink-0 mt-1" size={18} />
-                  <span className="text-gray-700">Regular progress assessments</span>
+                  <span className="text-gray-700">Additional practice materials</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="text-teal-700 mr-2 flex-shrink-0 mt-1" size={18} />
-                  <span className="text-gray-700">Additional practice materials</span>
+                  <span className="text-gray-700">Mock Exams</span>
                 </li>
               </ul>
               <motion.button 
@@ -211,7 +211,7 @@ const Pricing: React.FC = () => {
                 <div className="bg-teal-100 rounded-full p-1 mr-3">
                   <Check className="text-teal-700" size={16} />
                 </div>
-                <span className="text-gray-700">Small group sessions</span>
+                <span className="text-gray-700">Access learning community</span>
               </div>
               <div className="flex items-start">
                 <div className="bg-teal-100 rounded-full p-1 mr-3">
@@ -231,24 +231,14 @@ const Pricing: React.FC = () => {
                 </div>
                 <span className="text-gray-700">Exam techniques</span>
               </div>
-              <div className="flex items-start">
-                <div className="bg-teal-100 rounded-full p-1 mr-3">
-                  <Check className="text-teal-700" size={16} />
-                </div>
-                <span className="text-gray-700">Progress tracking</span>
-              </div>
+
               <div className="flex items-start">
                 <div className="bg-teal-100 rounded-full p-1 mr-3">
                   <Check className="text-teal-700" size={16} />
                 </div>
                 <span className="text-gray-700">Mock exams</span>
               </div>
-              <div className="flex items-start">
-                <div className="bg-teal-100 rounded-full p-1 mr-3">
-                  <Check className="text-teal-700" size={16} />
-                </div>
-                <span className="text-gray-700">Personalized feedback</span>
-              </div>
+             
             </div>
           </motion.div>
           

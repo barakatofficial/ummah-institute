@@ -10,7 +10,7 @@ const Features: React.FC = () => {
     {
       title: "Mathematics",
       icon: <Calculator className="text-white" size={24} />,
-      description: "Master key mathematical concepts and problem-solving techniques essential for GCSE success.",
+      description: "Master key mathematical concepts and problem-solving techniques through exam focused learning",
       topics: [
         "Algebra and Functions",
         "Geometry and Trigonometry",
@@ -23,7 +23,7 @@ const Features: React.FC = () => {
     {
       title: "Chemistry",
       icon: <Flask className="text-white" size={24} />,
-      description: "Develop a deep understanding of chemical principles and practical applications.",
+      description: "Develop a deep understanding of chemical principles and practical applications through exam focused learning.",
       topics: [
         "Atomic Structure and Periodic Table",
         "Chemical Bonding and Reactions",
@@ -52,7 +52,7 @@ const Features: React.FC = () => {
     {
       title: "Exam Techniques",
       icon: <Brain className="text-teal-700" size={28} />,
-      description: "Learn proven strategies for approaching different question types and maximizing your marks."
+      description: "Learn proven strategies for approaching different question types and how to maximise your marks."
     },
     {
       title: "Interactive Learning",
@@ -62,7 +62,7 @@ const Features: React.FC = () => {
     {
       title: "Practice Materials",
       icon: <Award className="text-teal-700" size={28} />,
-      description: "Access comprehensive study materials, practice questions, and mock exams aligned with the GCSE curriculum."
+      description: "Access comprehensive study materials, practice questions, and a mock exam aligned with the GCSE curriculum."
     }
   ];
 
@@ -75,22 +75,22 @@ const Features: React.FC = () => {
     {
       step: "2",
       title: "Attend Weekly Sessions",
-      content: "Join our 4-hour weekly sessions designed to cover key topics and exam techniques."
+      content: "Join our 4-hour weekly sessions designed to cover the entire GCSE Syllabus."
     },
     {
       step: "3",
       title: "Practice & Apply",
-      content: "Use our comprehensive materials to practice and reinforce your understanding."
+      content: "Use our comprehensive materials to perfect exam technique."
     },
     {
       step: "4",
       title: "Track Your Progress",
-      content: "Regular assessments help you identify strengths and areas for improvement."
+      content: "Regular assignments help you identify strengths and areas for improvement."
     },
     {
       step: "5",
       title: "Excel in Your Exams",
-      content: "Apply your knowledge and techniques to achieve outstanding GCSE results."
+      content: "Apply your knowledge and techniques through our mock exams."
     }
   ];
 
