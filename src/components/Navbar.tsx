@@ -41,17 +41,26 @@ const Navbar: React.FC<NavbarProps> = ({ isMenuOpen, setIsMenuOpen }) => {
             ? "bg-teal-700/85 backdrop-blur-xl shadow-lg" 
             : "bg-teal-700/75 backdrop-blur-lg"
         )}>
-          <div className="container mx-auto px-4 md:px-6 py-4">
+          <div className="container mx-auto px-4 md:px-6 py-2 md:py-3 lg:py-4">
             <div className="flex items-center justify-between">
               {/* Logo */}
               <motion.a
                 href="#"
-                className="text-xl md:text-2xl font-bold text-white"
+                className="flex items-center"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}
+                onClick={() => scrollToSection('home')}
               >
-                Ummah Institute
+                <img 
+                  src="/UI-TransparentBG-WhiteFullText.png" 
+                  alt="Ummah Institute" 
+                  className="h-10 sm:h-12 md:h-14 lg:h-16 w-auto max-w-[180px] sm:max-w-[200px] md:max-w-none"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.src = "/UI-TrapnsparentBG-GreenFullText.png";
+                  }}
+                />
               </motion.a>
 
               {/* Desktop Navigation */}
