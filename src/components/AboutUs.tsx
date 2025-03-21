@@ -1,43 +1,8 @@
 import React from 'react';
-import { CheckCircle, GraduationCap, Users, Trophy, Target, BookOpen } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { cn } from '@/lib/utils';
-
-interface TimelineFeature {
-  icon: React.ReactNode;
-  title: string;
-  description: string;
-}
+import { GraduationCap, Users, Trophy } from 'lucide-react';
 
 const AboutUs: React.FC = () => {
-  const features: TimelineFeature[] = [
-    {
-      icon: <GraduationCap className="h-6 w-6" />,
-      title: "Expert GCSE Tutors",
-      description: "Our tutors are highly qualified with extensive experience in GCSE education and proven track records of student success."
-    },
-    {
-      icon: <Users className="h-6 w-6" />,
-      title: "Online Learning",
-      description: "Flexible online classes with interactive learning materials and real-time support from our expert tutors."
-    },
-    {
-      icon: <Trophy className="h-6 w-6" />,
-      title: "Proven Results",
-      description: "90% of our students improve by at least 2 grades in their GCSE examinations."
-    },
-    {
-      icon: <Target className="h-6 w-6" />,
-      title: "Focused Curriculum",
-      description: "Specialized programs in Mathematics and Chemistry aligned with the latest GCSE specifications."
-    },
-    {
-      icon: <BookOpen className="h-6 w-6" />,
-      title: "Comprehensive Resources",
-      description: "Access to extensive study materials, practice questions, and exam preparation resources."
-    }
-  ];
-
   return (
     <section id="about" className="py-16 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">

@@ -1,39 +1,8 @@
-import React, { useState } from 'react';
-import { Star, ChevronLeft, ChevronRight, Quote } from 'lucide-react';
+import React from 'react';
+import { Star } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Testimonials: React.FC = () => {
-  const [activeTestimonial, setActiveTestimonial] = useState(0);
-  
-  const testimonials = [
-    {
-      quote: "The Mathematics program at Ummah Institute transformed my understanding of complex topics. I went from struggling with algebra to confidently solving problems. My grade improved from a 5 to an 8!",
-      name: "Sarah A.",
-      role: "GCSE Student, 2024",
-      initials: "SA"
-    },
-    {
-      quote: "Chemistry was always challenging for me until I joined the Ummah Institute program. The tutors explained concepts clearly and provided excellent practice materials. I achieved a grade 9 in my GCSE Chemistry!",
-      name: "Mohammed K.",
-      role: "GCSE Student, 2023",
-      initials: "MK"
-    },
-    {
-      quote: "I enrolled in both Mathematics and Chemistry programs, and it was the best decision I made. The small group setting allowed for personalized attention, and the exam techniques they taught were invaluable. Highly recommend!",
-      name: "Aisha H.",
-      role: "GCSE Student, 2024",
-      initials: "AH"
-    }
-  ];
-
-  const nextTestimonial = () => {
-    setActiveTestimonial((prev) => (prev + 1) % testimonials.length);
-  };
-
-  const prevTestimonial = () => {
-    setActiveTestimonial((prev) => (prev - 1 + testimonials.length) % testimonials.length);
-  };
-
   return (
     <section id="testimonials" className="py-16 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -58,8 +27,6 @@ const Testimonials: React.FC = () => {
             Hear from students who have experienced our GCSE Accelerator Program and achieved remarkable results.
           </motion.p>
         </div>
-
-
 
         {/* Additional Testimonials */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
