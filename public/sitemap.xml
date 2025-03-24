@@ -1,27 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://ummahinstitute.com/</loc>
-    <lastmod>2024-03-19</lastmod>
+    <loc>https://ummahinstitute.co.uk/</loc>
+    <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://ummahinstitute.co.uk/UI-TrapnsparentBG-GreenFullText.png</image:loc>
+      <image:title>Ummah Institute Logo</image:title>
+    </image:image>
   </url>
+  
+  <!-- Section-specific URLs for Single Page Application -->
   <url>
-    <loc>https://ummahinstitute.com/about</loc>
-    <lastmod>2024-03-19</lastmod>
+    <loc>https://ummahinstitute.co.uk/#about</loc>
+    <lastmod>2024-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  
   <url>
-    <loc>https://ummahinstitute.com/courses</loc>
-    <lastmod>2024-03-19</lastmod>
+    <loc>https://ummahinstitute.co.uk/#features</loc>
+    <lastmod>2024-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://ummahinstitute.co.uk/#pricing</loc>
+    <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
+  
   <url>
-    <loc>https://ummahinstitute.com/contact</loc>
-    <lastmod>2024-03-19</lastmod>
+    <loc>https://ummahinstitute.co.uk/#testimonials</loc>
+    <lastmod>2024-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://ummahinstitute.co.uk/#contact</loc>
+    <lastmod>2024-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset> 

@@ -7,6 +7,7 @@ import Testimonials from './components/Testimonials';
 import AboutUs from './components/AboutUs';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import DeadlinePopup from './components/DeadlinePopup';
 import { motion } from 'framer-motion';
 import { HelmetProvider } from 'react-helmet-async';
 import SEO from './components/SEO';
@@ -14,11 +15,14 @@ import SEO from './components/SEO';
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+  const [showDeadlinePopup, setShowDeadlinePopup] = useState(false);
 
   useEffect(() => {
     // Simulate loading
     const timer = setTimeout(() => {
       setIsLoading(false);
+      // Show deadline popup after loading
+      setShowDeadlinePopup(true);
     }, 1500);
     
     return () => clearTimeout(timer);
@@ -68,6 +72,10 @@ function App() {
           <Contact />
         </main>
         <Footer />
+        <DeadlinePopup 
+          isOpen={showDeadlinePopup} 
+          onClose={() => setShowDeadlinePopup(false)} 
+        />
       </div>
     </HelmetProvider>
   );

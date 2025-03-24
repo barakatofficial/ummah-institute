@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, ExternalLink } from 'lucide-react';
+import { Mail, ExternalLink, Clock } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Contact: React.FC = () => {
@@ -13,10 +13,14 @@ const Contact: React.FC = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Ready to Start Your Journey?</h2>
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-teal-50 text-teal-700 text-sm font-medium mb-4">
+            <Clock className="w-4 h-4" />
+            <span>Limited Places Available</span>
+          </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Secure Your Spot Today</h2>
           <div className="w-16 h-1 bg-teal-700 mx-auto my-4"></div>
           <p className="mt-6 text-lg text-gray-600 max-w-2xl mx-auto">
-            Whether you're looking to enroll in our GCSE programs or simply have questions, we're here to guide you every step of the way.
+            Registration closes on April 2nd, 2024. Don't miss out on this opportunity to excel in your GCSE journey.
           </p>
         </motion.div>
 
@@ -52,7 +56,7 @@ const Contact: React.FC = () => {
                   animate={{ opacity: 1 }}
                   transition={{ duration: 0.6, delay: 0.2 }}
                 >
-                  <h3 className="text-2xl font-bold text-gray-900 mb-6">Contact Us Today</h3>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-6">Register Now</h3>
                   
                   <motion.a
                     href="https://tally.so/r/nG5NRe"
@@ -62,11 +66,11 @@ const Contact: React.FC = () => {
                     whileHover={{ scale: 1.02, boxShadow: "0 10px 15px -3px rgba(0, 0, 0, 0.1)" }}
                     whileTap={{ scale: 0.98 }}
                   >
-                    Contact Form <ExternalLink size={18} className="ml-2" />
+                    Secure Your Place <ExternalLink size={18} className="ml-2" />
                   </motion.a>
                   
                   <p className="text-sm text-gray-500 mt-4 text-center">
-                    We typically respond within 24-48 hours
+                    Limited spots available - Register before April 2nd
                   </p>
                 </motion.div>
               </div>

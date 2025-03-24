@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Clock } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const scrollToSection = (sectionId: string) => {
@@ -21,14 +21,26 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="max-w-3xl mx-auto space-y-8"
         >
-          <motion.span
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.3, duration: 0.5 }}
-            className="inline-block px-4 py-1.5 rounded-full bg-teal-50 text-teal-700 text-sm font-medium tracking-wide"
-          >
-            Empowering GCSE Success
-          </motion.span>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+            <motion.span
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.3, duration: 0.5 }}
+              className="inline-block px-4 py-1.5 rounded-full bg-teal-50 text-teal-700 text-sm font-medium tracking-wide"
+            >
+              Empowering GCSE Success
+            </motion.span>
+            
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.4, duration: 0.5 }}
+              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-teal-50 text-teal-700 text-sm font-medium"
+            >
+              <Clock className="w-4 h-4" />
+              <span>Registration closes April 2nd</span>
+            </motion.div>
+          </div>
 
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
