@@ -8,6 +8,7 @@ import AboutUs from './components/AboutUs';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import DeadlinePopup from './components/DeadlinePopup';
+import { Analytics } from '@vercel/analytics/react';
 import { motion } from 'framer-motion';
 import { HelmetProvider } from 'react-helmet-async';
 import SEO from './components/SEO';
@@ -76,6 +77,7 @@ function App() {
           isOpen={showDeadlinePopup} 
           onClose={() => setShowDeadlinePopup(false)} 
         />
+        <Analytics />
       </div>
     </HelmetProvider>
   );
